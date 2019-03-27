@@ -17,7 +17,6 @@
 		D7A59C5022240BCD00618457 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A59C4F22240BCD00618457 /* Box.swift */; };
 		D7A59C5322241E0900618457 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A59C5222241E0900618457 /* Settings.swift */; };
 		D7A59C592228217D00618457 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A59C582228217D00618457 /* Camera.swift */; };
-		D7A59C5C222822B400618457 /* CameraDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A59C5B222822B400618457 /* CameraDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +32,6 @@
 		D7A59C4F22240BCD00618457 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 		D7A59C5222241E0900618457 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		D7A59C582228217D00618457 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
-		D7A59C5B222822B400618457 /* CameraDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				D7A59C582228217D00618457 /* Camera.swift */,
-				D7A59C5B222822B400618457 /* CameraDelegate.swift */,
 			);
 			path = Camera;
 			sourceTree = "<group>";
@@ -170,6 +167,7 @@
 				TargetAttributes = {
 					D721ED47221C1D020092B77A = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -212,7 +210,6 @@
 				D7A59C5322241E0900618457 /* Settings.swift in Sources */,
 				D721ED52221C1D020092B77A /* GameScene.swift in Sources */,
 				D721ED54221C1D020092B77A /* GameViewController.swift in Sources */,
-				D7A59C5C222822B400618457 /* CameraDelegate.swift in Sources */,
 				D7A59C4C22240A3900618457 /* Bird.swift in Sources */,
 				D721ED4C221C1D020092B77A /* AppDelegate.swift in Sources */,
 				D7A59C592228217D00618457 /* Camera.swift in Sources */,
@@ -365,13 +362,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 84MA3JMGLA;
 				INFOPLIST_FILE = AngryBirdsTechDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.alu.ufc.levycristian.AngryBirdsTechDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -383,13 +381,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 84MA3JMGLA;
 				INFOPLIST_FILE = AngryBirdsTechDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.alu.ufc.levycristian.AngryBirdsTechDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

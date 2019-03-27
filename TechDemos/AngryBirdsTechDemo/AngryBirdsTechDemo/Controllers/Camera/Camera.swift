@@ -46,9 +46,6 @@ class Camera : SKCameraNode {
     /** Enable/Disable clamping of the worldNode */
     var enableClamping: Bool
     
-    /** Delegates are informed when the camera repositions or performs some other action. */
-    private var delegates: [SKTilemapCameraDelegate] = []
-    
     /** Previous touch/mouse location the last time the position was updated. */
     private var previousLocation: CGPoint!
     
@@ -125,7 +122,6 @@ class Camera : SKCameraNode {
             
             position = scenePosition
             clampWorldNode()
-            for delegate in delegates { delegate.didUpdatePosition(position: position, scale: zoomScale, bounds: self.bounds) }
             
         } else {
             
@@ -134,7 +130,6 @@ class Camera : SKCameraNode {
             
             let blockAction = SKAction.run({
                 self.clampWorldNode()
-                for delegate in self.delegates { delegate.didUpdatePosition(position: self.position, scale: self.zoomScale, bounds: self.bounds) }
             })
             
             run(SKAction.group([moveAction, blockAction]))
@@ -159,7 +154,6 @@ class Camera : SKCameraNode {
         self.zoomScale = zoomScale
         worldNode.setScale(zoomScale)
         
-        for delegate in delegates { delegate.didUpdateZoomScale(position: position, scale: zoomScale, bounds: self.bounds) }
     }
     
     /** Returns the minimum zoom scale possible for the size of the worldNode. Useful when you don't want the worldNode
@@ -219,6 +213,5 @@ class Camera : SKCameraNode {
     func updateBounds(bounds: CGRect) {
         
         self.bounds = bounds
-        for delegate in delegates { delegate.didUpdateBounds(position: position, scale: zoomScale, bounds: self.bounds) }
     }
 }
