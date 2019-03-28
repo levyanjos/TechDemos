@@ -23,8 +23,16 @@ Essa techdemo tem como objetivo explorar alguns recursos do SpriteKit como adici
 
 ![](Resources/techDemoSA.gif)
 
-links dos posts:
+links dos posts: \
 [Parte I](https://medium.com/p/555e3414fbde) \
 [Parte II](https://medium.com/@alcidesjuniorbr/124663e32ef0)
+
+## Como criar botões e adicionar ação usando SpriteKit
+Essa techdemo tem como objetivo ensinar como criar um botão e adicionar uma ação qualquer a ele.
+
+![](Resources/botaoSpriteKit)
+link do post: \
+[Post sobre botão](https://medium.com/p/1394efab5211)
+
 
 
