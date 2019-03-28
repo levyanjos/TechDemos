@@ -30,7 +30,7 @@ links dos posts: \
 ## Como criar botões e adicionar ação usando SpriteKit
 Essa techdemo tem como objetivo ensinar como criar um botão e adicionar uma ação qualquer a ele.
 
-![](Resources/botaoSpriteKit)
+![](Resources/botaoSpriteKit.gif)
 link do post: \
 [Post sobre botão](https://medium.com/p/1394efab5211)
 
