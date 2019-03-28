@@ -24,7 +24,7 @@ Essa techdemo tem como objetivo explorar alguns recursos do SpriteKit como adici
 ![](Resources/techDemoSA.gif)
 
 links dos posts:
-[Parte I](https://medium.com/p/555e3414fbde)
+[Parte I](https://medium.com/p/555e3414fbde) \
 [Parte II](https://medium.com/@alcidesjuniorbr/124663e32ef0)
 
 
