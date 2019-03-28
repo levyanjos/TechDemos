@@ -18,4 +18,13 @@ Os links para os posts explicando a criação dessa ferramenta podem ser enconta
 [SKCameraNode- Uma abordagem Sólida, Parte - 2](https://medium.com/@levycristian/skcameranode-uma-abordagem-s%C3%B3lida-parte-2-c4eb93c8ec91) \
 [SKCameraNode- Uma abordagem Sólida, Parte - 3](https://medium.com/@levycristian/skcameranode-uma-abordagem-s%C3%B3lida-parte-3-3c05f8d59afa)
 
+## Sound Platform
+Essa techdemo tem como objetivo explorar alguns recursos do SpriteKit como adicionar blocos dinamicamente na tela, explorar recursos de áudio, checar contato entre dois objetos e remover itens da cena.
+
+![](Resources/techDemoSA.gif)
+
+links dos posts:
+[Parte I](https://medium.com/p/555e3414fbde)
+[Parte II](https://medium.com/@alcidesjuniorbr/124663e32ef0)
+
 
