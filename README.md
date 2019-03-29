@@ -40,7 +40,7 @@ link do post: \
 Essa TechDemo tem como objetivo explorar os conceitos de inteligencia artificial que o framework GamePlayKit aborda, introduzidos no famoso jogo da velha. Nele veremos a utilização do **Minmax Strategist**, os protocolos **GKGameModel**, **GKGameModelPalyer**, **GKGameModelUpdate** e muito mais! 😁
 
 
-![](Resources/tic-tac-toc.mp4)
+![](Resources/tic-tac-toe.gif)
 
 Um post foi criado para ajudá-lo a entender o funcionamento dos protocolos:
 
