@@ -32,7 +32,7 @@ Essa techdemo tem como objetivo ensinar como criar um botão e adicionar uma aç
 
 ![](Resources/botaoSpriteKit.gif) \
 link do post: \
-[Post sobre botão](https://medium.com/p/1394efab5211)
+[Como criar um botão usando SpriteKit](https://medium.com/p/1394efab5211)
 
 
 
