@@ -8,7 +8,7 @@ Essa TechDemo tem com objetivo recriar a física do jogo angry birds. Nela, foi 
 
 ## Mural De Herois
 
-Essa TechDemo tem com objetivo explocar o máximo possível da SKCameraNode. Nele, conseguimos explocar uma forma sólida de criar um objeto dessa classe e como criar, por exemplo, **Zoom in/out** e **Navegação por swipe**. O resultado obtido é seguinte: 
+Essa TechDemo tem com objetivo explorar o máximo possível da SKCameraNode. Nele, conseguimos explocar uma forma sólida de criar um objeto dessa classe e como criar, por exemplo, **Zoom in/out** e **Navegação por swipe**. O resultado obtido é seguinte: 
 
 ![](Resources/mural.gif)
 
@@ -35,4 +35,13 @@ link do post: \
 [Post sobre botão](https://medium.com/p/1394efab5211)
 
 
+## Jogo da Velha (Tic-Tac-Toe)
 
+Essa TechDemo tem como objetivo explorar os conceitos de inteligencia artificial que o framework GamePlayKit aborda, introduzidos no famoso jogo da velha. Nele veremos a utilização do **Minmax Strategist**, os protocolos **GKGameModel**, **GKGameModelPalyer**, **GKGameModelUpdate** e muito mais! 😁
+
+
+![](Resources/tic-tac-toc.mp4)
+
+Um post foi criado para ajudá-lo a entender o funcionamento dos protocolos:
+
+[GamePlayKit: Entendendo o protocolo GKGameModel](https://medium.com/academy-ifce/gameplaykit-entendendo-o-protocolo-gkgamemodel-f4df2b2f031d) 
