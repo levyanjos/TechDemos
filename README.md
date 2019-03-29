@@ -44,3 +44,20 @@ Essa TechDemo tem como objetivo explorar os conceitos de inteligencia artificial
 Um post foi criado para ajudá-lo a entender o funcionamento dos protocolos:
 
 [GamePlayKit: Entendendo o protocolo GKGameModel](https://medium.com/academy-ifce/gameplaykit-entendendo-o-protocolo-gkgamemodel-f4df2b2f031d) 
+
+## 3DTouchGame
+
+Essa TechDemo foi criada inspirada no jogo Dividr um jogo de mecânica bem simples porém muito viciante, vale ressaltar que todas as linhas do código estão comentadas para facilitar o seu aprendizado, a tecnologia utilizada para desenvolvimento foi SpriteKit o framework para jogos 2D da Apple.
+
+![](Resources/3DTouchGame.gif)
+
+## FlyingFish
+
+Essa TechDemo foi criada inspirada no jogo Flap Bird um jogo bastante conhecido pela comunidade, vale ressaltar que todas as linhas do código estão comentadas para facilitar o seu aprendizado, a tecnologia utilizada para desenvolvimento foi SpriteKit .
+
+![](Resources/FlyingFish.gif)
+
+Se for a sua primeira vez com a tecnologia preparei uns posts para ajudar seu processo de familiarização com a engine que te darão embasamento para conceitos mais complexos.
+
+[Primeiros passos com SpriteKit](https://medium.com/academy-ifce/gameplaykit-entendendo-o-protocolo-gkgamemodel-f4df2b2f031d) 
+[Animação com frames utilizando SpriteKit](https://medium.com/academy-ifce/gameplaykit-entendendo-o-protocolo-gkgamemodel-f4df2b2f031d) 
