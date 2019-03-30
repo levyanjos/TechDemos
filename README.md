@@ -59,5 +59,5 @@ Essa TechDemo foi criada inspirada no jogo Flap Bird um jogo bastante conhecido 
 
 Se for a sua primeira vez com a tecnologia preparei uns posts para ajudar seu processo de familiarização com a engine que te darão embasamento para conceitos mais complexos.
 
-[Primeiros passos com SpriteKit](https://medium.com/academy-ifce/gameplaykit-entendendo-o-protocolo-gkgamemodel-f4df2b2f031d) 
-[Animação com frames utilizando SpriteKit](https://medium.com/academy-ifce/gameplaykit-entendendo-o-protocolo-gkgamemodel-f4df2b2f031d) 
+[Primeiros passos com SpriteKit](https://medium.com/academy-ifce/primeiros-passos-com-spritekit-4710ee69a4c0) \
+[Animação com frames utilizando SpriteKit](https://medium.com/academy-ifce/anima%C3%A7%C3%A3o-utilizando-frames-com-spritekit-9f933e7a74c7) 
