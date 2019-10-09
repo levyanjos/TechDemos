@@ -245,11 +245,13 @@ class GameScene: SKScene {
     }
     
     override func update(_ currentTime: TimeInterval) {
-        if gameStarted {
+        if gameStarted != nil{
             // Calcula a velocidade do player no eixo Y, para rotacionar o mesmo conforme esta velocidade
             let yVelocity = player.physicsBody!.velocity.dy * 0.001 as CGFloat // Cáculo da velocidade
             player.zRotation = yVelocity // Rotação no eixo Z do player
             
+        } else{
+            print("Error gameStarted")
         }
     }
 }
